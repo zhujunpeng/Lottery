@@ -8,7 +8,7 @@ public interface ConstantValue {
 	// class :public static final
 	String ENCONDING="UTF-8";
 	/**
-	 * 浠ｇ悊鐨刬d
+	 * 代理商id
 	 */
 	String AGENTERID="889931";
 //	<source>ivr</source>
@@ -18,12 +18,12 @@ public interface ConstantValue {
 	String SOURCE="ivr";
 	//<compress>DES</compress>
 	/**
-	 * body閲岄潰鐨勬暟鎹姞瀵嗙畻娉�
+	 * body的加密方式
 	 */
 	String COMPRESS="DES";
 	
 	/**
-	 * 瀛愪唬鐞嗗晢鐨勫瘑閽�(.so) JNI
+	 * 密码(.so) JNI
 	 */
 	String AGENTER_PASSWORD = "9ab62a694d8bf6ced1fab6acd48d02f8";
 	
@@ -70,31 +70,5 @@ public interface ConstantValue {
 	 */
 	String SUCCESS="0";
 	
-	
-	
-	/**
-	XmlPullParser parser = Xml.newPullParser();
-			try {
-				parser.setInput(is, ConstantValue.ENCONDING);
-
-				int eventType = parser.getEventType();
-				String name;
-
-				while (eventType != XmlPullParser.END_DOCUMENT) {
-					switch (eventType) {
-					case XmlPullParser.START_TAG:
-						name = parser.getName();
-						if ("".equals(name)) {
-
-						}
-						break;
-					}
-					eventType = parser.next();
-				}
-
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-	 */
 
 }
