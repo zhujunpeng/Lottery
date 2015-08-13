@@ -55,6 +55,14 @@ public class Message {
 		}
 		return null;
 	}
+
+	public Header getHeader() {
+		return header;
+	}
+
+	public Body getBody() {
+		return body;
+	}
 	
 	// 需要处理的问题
 	// 1、md5处理的时候需要一个明文的body

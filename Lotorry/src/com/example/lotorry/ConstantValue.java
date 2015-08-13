@@ -13,60 +13,60 @@ public interface ConstantValue {
 	String AGENTERID="889931";
 //	<source>ivr</source>
 	/**
-	 * 淇℃伅鏉ユ簮
+	 * 信息来源
 	 */
 	String SOURCE="ivr";
 	//<compress>DES</compress>
 	/**
-	 * body的加密方式
+	 * body里面的数据的加密方式
 	 */
 	String COMPRESS="DES";
 	
 	/**
-	 * 密码(.so) JNI
+	 * 子代理商的密码(.so) JNI
 	 */
 	String AGENTER_PASSWORD = "9ab62a694d8bf6ced1fab6acd48d02f8";
 	
 	/**
-	 * des鍔犲瘑鐢ㄥ瘑閽�
+	 * des加密用的秘钥
 	 */
 	String DES_PASSWORD = "9b2648fcdfbad80f";
 	/**
-	 * 鏈嶅姟鍣ㄥ湴鍧�
+	 * 服务器地址
 	 */
-	String LOTTERY_URI = "http://10.0.2.2:8080/ZCWService/Entrance";// 10.0.2.2妯℃嫙鍣ㄥ鏋滈渶瑕佽窡PC鏈洪�氫俊127.0.0.1
-	// String LOTTERY_URI = "http://192.168.1.100:8080/ZCWService/Entrance";// 10.0.2.2妯℃嫙鍣ㄥ鏋滈渶瑕佽窡PC鏈洪�氫俊127.0.0.1
+	String LOTTERY_URI = "http://10.0.2.2:8080/ZCWService/Entrance";
+	// String LOTTERY_URI = "http://192.168.1.100:8080/ZCWService/Entrance";
 	
 	
 	int VIEW_FIRST=1;
 	int VIEW_SECOND=2;
 	
 	/**
-	 * 璐僵澶у巺
+	 * 购彩大厅
 	 */
 	int VIEW_HALL=10;
 	/**
-	 * 鍙岃壊鐞冮�夊彿鐣岄潰
+	 * 双色球选好界面
 	 */
 	int VIEW_SSQ=15;
 	/**
-	 * 璐墿杞�
+	 * 购物车
 	 */
 	int VIEW_SHOPPING=20;
 	/**
-	 * 杩芥湡鍜屽�嶆姇鐨勮缃晫闈�
+	 * 追期和倍投的设置界面
 	 */
 	int VIEW_PREBET=25;
 	/**
-	 * 鐢ㄦ埛鐧诲綍
+	 * 用户登陆
 	 */
 	int VIEW_LOGIN=30;
 	/**
-	 * 鍙岃壊鐞冩爣绀�
+	 * 双色球标示
 	 */
 	int SSQ=118;
 	/**
-	 * 鏈嶅姟鍣ㄨ繑鍥炴垚鍔熺姸鎬佺爜
+	 * 服务器返回的状态码
 	 */
 	String SUCCESS="0";
 	

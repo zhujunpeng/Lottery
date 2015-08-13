@@ -37,4 +37,8 @@ public class Leaf {
 		}
 	}
 
+	public String getTagValue() {
+		return tagValue;
+	}
+
 }

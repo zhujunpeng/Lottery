@@ -22,6 +22,26 @@ import android.util.Xml;
 public class Body {
 	private List<Element> elements = new ArrayList<Element>();
 	
+	/*************************************/
+	private String ServiceBodyInsideDESInfo;
+	
+	public String getServiceBodyInsideDESInfo() {
+		return ServiceBodyInsideDESInfo;
+	}
+
+	public void setServiceBodyInsideDESInfo(String serviceBodyInsideDESInfo) {
+		ServiceBodyInsideDESInfo = serviceBodyInsideDESInfo;
+	}
+
+	private Oelement oelement = new Oelement();
+	public Oelement getOelement() {
+		return oelement;
+	}
+
+	public void setOelement(Oelement oelement) {
+		this.oelement = oelement;
+	}
+	/*************************************/
 	public List<Element> getElements() {
 		return elements;
 	}

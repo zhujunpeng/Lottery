@@ -76,6 +76,18 @@ public class Header {
 	public Leaf getUsername() {
 		return username;
 	}
-
+/*************************处理服务器的回复***************************************/
+	public Leaf getTimestamp() {
+		return timestamp;
+	}
+	public void setTimestamp(Leaf timestamp) {
+		this.timestamp = timestamp;
+	}
+	public Leaf getDigest() {
+		return digest;
+	}
+	public void setDigest(Leaf digest) {
+		this.digest = digest;
+	}
 	
 }
